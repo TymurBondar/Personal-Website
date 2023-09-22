@@ -1,0 +1,28 @@
+.container {
+    width: 85%;
+    margin: 0 auto; /* This will center the container horizontally */
+    display: flex;  /* These flex properties will help in centering content */
+    flex-direction: column;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;     /* Center the content vertically */
+    min-height: 100vh;       /* Take full viewport height */
+}
+
+/* If you have direct child elements inside the container and want them to be vertically and horizontally centered too, you might need to ensure that they don't grow unnecessarily with flex. This is an optional style based on your content:
+.container > * {
+    flex: 0 0 auto;
+}
+*/
+
+.links {
+    display: flex;
+    justify-content: space-between; /* Distribute the space evenly between the links */
+    width: 85%; /* Make sure the links container spans the full width of its parent to distribute space properly */
+}
+
+.links a {
+    color: inherit;
+    text-decoration: none; /* Optional: to remove the default underline of links */
+    padding: 5px 10px; /* Optional: some padding for each link for better appearance */
+    /* Add other styles like color, hover effects, etc. as per your design requirements */
+}
