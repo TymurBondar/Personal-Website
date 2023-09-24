@@ -65,3 +65,13 @@ h1 {
     font-weight: 600;
     font-size: 4rem;
 }
+.defaultCursor{
+    cursor: default;
+}
+
+.aboutText {
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: 50%;
+    width: 50%;
+}
