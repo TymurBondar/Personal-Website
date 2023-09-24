@@ -27,8 +27,15 @@ body{
     text-decoration: none; /* Optional: to remove the default underline of links */
     padding: 5px 10px; /* Optional: some padding for each link for better appearance */
     white-space: nowrap;  /* Prevent wrapping */
-    font-size: 3vw;
+    font-size: 2.5vw;
+    font-weight: 200;
 }
+
+.links a:hover {
+    text-shadow: 1px 1px 1px #020505a6; /* Adds a subtle shadow to the text */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
+}
+
 
 h1 {
     width: 85vw;          /* Set the width to 85% of the viewport width */
