@@ -96,3 +96,23 @@ h1 {
     flex: 2;
     text-align: right;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-shadow: 1px 1px 1px #020505a6; /* Adds a subtle shadow to the text */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
+}
+.projects{
+    font-size: 3rem;
+    align-self: flex-start;
+    margin-bottom: 20%;
+}
+li {
+    margin-bottom: 100px;
+}
+ul {
+    list-style: none;
+}
