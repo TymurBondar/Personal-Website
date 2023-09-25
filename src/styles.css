@@ -116,3 +116,18 @@ li {
 ul {
     list-style: none;
 }
+.contactLinks{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.contactLinks a{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.contactLinks p {
+    font-size: 1.5rem;
+    margin-top: 35%;
+}
