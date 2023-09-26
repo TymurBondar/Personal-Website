@@ -8,27 +8,27 @@
         },
         {
             "id": 2,
-            "name": "TypeFaster",
-            "technologies": "Flask, SQL, JavaScript, HTML, CSS",
-            "link": "https://github.com/TymurBondar/cs50final"
+            "name": "Todo",
+            "technologies": "JavaScript, HTML, CSS",
+            "link": "https://github.com/TymurBondar/FlatironPreworkProject"
         },
         {
             "id": 3,
-            "name": "TypeFaster",
-            "technologies": "Flask, SQL, JavaScript, HTML, CSS",
+            "name": "ToyTale",
+            "technologies": "JavaScript(event listeners, fetch requests), HTML, CSS",
             "link": "https://github.com/TymurBondar/cs50final"
         },
         {
             "id": 4,
-            "name": "TypeFaster",
-            "technologies": "Flask, SQL, JavaScript, HTML, CSS",
+            "name": "Mock Ramen",
+            "technologies": "JavaScript(event listeners, fetch requests), HTML, CSS",
             "link": "https://github.com/TymurBondar/cs50final"
         },
         {
             "id": 5,
-            "name": "TypeFaster",
-            "technologies": "Flask, SQL, JavaScript, HTML, CSS",
-            "link": "https://github.com/TymurBondar/cs50final"
+            "name": "To Be Continued",
+            "technologies": "Machine learning, I hope",
+            "link": ""
         }
     ],
     "Movies": [
