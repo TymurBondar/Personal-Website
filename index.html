@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tymur Bondar</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./src/styles.css">
-    </head>
-    <body id="index">
-        <div class="container">
-            <h1 class="defaultCursor">Tymur Bondar</h1>
-            <div class="links">
-                <a href="./about.html" class="transition-link">About Me</a>
-                <a href="./education.html" class="transition-link">Education</a>
-                <a href="./portfolio.html" class="transition-link">Portfolio</a>
-                <a href="./contact.html" class="transition-link">Contact</a>
-            </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tymur Bondar</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+
+<body id="index">
+    <div class="container">
+        <h1 class="defaultCursor">Tymur Bondar</h1>
+        <div class="links">
+            <a href="./about.html" class="transition-link">About Me</a>
+            <a href="./education.html" class="transition-link">Education</a>
+            <a href="./portfolio.html" class="transition-link">Portfolio</a>
+            <a href="./contact.html" class="transition-link">Contact</a>
         </div>
-        <p id="movie">Press M for a movie recommendation! <span id="movieRec"></span></p>
-        <script src="./src/index.js" async defer></script>
-    </body>
+    </div>
+    <p id="movie">Press M for a movie recommendation! <span id="movieRec"></span></p>
+    <p>Recommend a Movie!</p>
+    <form action="" method="get" id="recommendForm">
+        <label for="title">Title</label>
+        <input type="text" name="title" placeholder="title">
+        <label for="director">Director</label>
+        <input type="text" name="director" placeholder="director">
+        <input type="submit">
+    </form>
+    <script src="./src/index.js" async defer></script>
+</body>
+
 </html>

@@ -1,4 +1,5 @@
 const projectList = document.getElementById("projectLinks");
+let newId = 0;
 
 function listProject(project) {
     const newLi = document.createElement("li");
@@ -12,6 +13,7 @@ function listProject(project) {
     newA.target = "_blank";
     newA.append(newName);
     newLi.append(newA, newDesc);
+    newId++;
     document.getElementById("projectLinks").append(newLi);
 
 }
@@ -27,6 +29,22 @@ if (document.getElementById("index")) {
                 })
         }
     });
+    document.getElementById("recommendForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const title = e.target.title.value;
+        const director = e.target.director.value;
+        fetch("http://localhost:3000/movies", {
+            method: "POST",
+            headers: {
+                "Content-type": "application/json"
+            },
+            body: JSON.stringify({
+                id: newId,
+                movie: title,
+                director: director
+            })
+        })
+    })
 };
 
 if (document.getElementById("portfolioPage")) {
