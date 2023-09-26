@@ -16,13 +16,13 @@
             "id": 3,
             "name": "ToyTale",
             "technologies": "JavaScript(event listeners, fetch requests), HTML, CSS",
-            "link": "https://github.com/TymurBondar/cs50final"
+            "link": "https://github.com/TymurBondar/phase-1-practice-toy-tale"
         },
         {
             "id": 4,
             "name": "Mock Ramen",
             "technologies": "JavaScript(event listeners, fetch requests), HTML, CSS",
-            "link": "https://github.com/TymurBondar/cs50final"
+            "link": "https://github.com/TymurBondar/phase-1-mock-cc-ramen-rater"
         },
         {
             "id": 5,
@@ -34,63 +34,43 @@
     "Movies": [
         {
             "id": 1,
-            "movie": "",
-            "name": "",
-            "director": ""
+            "movie": "Knockin' on Heaven's Door 1997",
+            "director": "Thomas Jahn"
         },
         {
             "id": 2,
-            "movie": "",
-            "name": "",
-            "director": ""
+            "movie": "Shutter Island",
+            "director": "Martin Scorsese"
         },
         {
             "id": 3,
-            "movie": "",
-            "name": "",
-            "director": ""
+            "movie": "The Shawshank Redemption",
+            "director": "Frank Darabont"
         },
         {
             "id": 4,
-            "movie": "",
-            "name": "",
-            "director": ""
+            "movie": "Forrest Gump",
+            "director": "Robert Zemeckis"
         },
         {
             "id": 5,
-            "movie": "",
-            "name": "",
-            "director": ""
+            "movie": "Goodfellas",
+            "director": "Martin Scorsese"
         },
         {
             "id": 6,
-            "movie": "",
-            "name": "",
-            "director": ""
+            "movie": "Léon",
+            "director": "Luc Besson"
         },
         {
             "id": 7,
-            "movie": "",
-            "name": "",
-            "director": ""
+            "movie": "Interstate 60",
+            "director": "Bob Gale"
         },
         {
             "id": 8,
-            "movie": "",
-            "name": "",
-            "director": ""
-        },
-        {
-            "id": 9,
-            "movie": "",
-            "name": "",
-            "director": ""
-        },
-        {
-            "id": 10,
-            "movie": "",
-            "name": "",
-            "director": ""
+            "movie": "A Dog's Purpose",
+            "director": "Lasse Hallström"
         }
     ]
 }
