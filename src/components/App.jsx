@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "../App.css";
 import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 function App() {
   const [mainContent, setMainContent] = useState("About");
@@ -8,7 +10,6 @@ function App() {
   function handleMainContentChange(event) {
     event.preventDefault();
     setMainContent(event.target.textContent);
-    console.log(event.target.textContent);
   }
 
   return (
@@ -30,9 +31,9 @@ function App() {
         {mainContent === "About" ? (
           <About />
         ) : mainContent === "Projects" ? (
-          <div>Projects Component</div>
+          <Projects />
         ) : mainContent === "Contact" ? (
-          <div>Contact Component</div>
+          <Contact />
         ) : null}
       </div>
     </div>
