@@ -3,6 +3,7 @@ import "../App.css";
 import About from "./About";
 import Projects from "./Projects";
 import Navbar from "./Navbar";
+import Links from "./Links";
 
 function App() {
   const [mainContent, setMainContent] = useState("About");
@@ -17,6 +18,7 @@ function App() {
           <Projects />
         ) : null}
       </div>
+      <Links />
     </div>
   );
 }
