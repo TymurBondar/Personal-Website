@@ -6,19 +6,17 @@ function Navbar({setMainContent}) {
       }
 
     return (
-        <nav>
-            <nav className="flex justify-between">
-                <a onClick={handleMainContentChange} className="" href="">
+            <nav className="flex justify-between font-bold text-xl">
+                <button onClick={handleMainContentChange}>
                     About
-                </a>
-                <a onClick={handleMainContentChange} className="" href="">
+                </button>
+                <button onClick={handleMainContentChange}>
                     Projects
-                </a>
-                <a onClick={handleMainContentChange} className="" href="">
+                </button>
+                <button onClick={handleMainContentChange}>
                     Contact
-                </a>
+                </button>
             </nav>
-        </nav>
     );
 };
 
