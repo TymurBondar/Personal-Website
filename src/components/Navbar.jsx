@@ -13,9 +13,6 @@ function Navbar({setMainContent}) {
                 <button onClick={handleMainContentChange}>
                     Projects
                 </button>
-                <button onClick={handleMainContentChange}>
-                    Contact
-                </button>
             </nav>
     );
 };
