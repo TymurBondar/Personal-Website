@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="flex flex-col h-screen">
       <Navbar setMainContent={setMainContent} />
-      <div className="flex flex-grow justify-center items-center w-full">
+      <div className="flex justify-center items-center w-full">
         {mainContent === "About" ? (
           <About />
         ) : mainContent === "Projects" ? (
