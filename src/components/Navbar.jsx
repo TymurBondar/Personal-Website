@@ -6,7 +6,7 @@ function Navbar({setMainContent}) {
       }
 
     return (
-            <nav className="flex justify-start font-bold text-xl">
+            <nav className="flex justify-start font-bold text-xl ml-16 mt-5">
                 <button onClick={handleMainContentChange} className="mr-5">
                     About 
                 </button>
