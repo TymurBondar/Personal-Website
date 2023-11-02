@@ -4,8 +4,8 @@ function Projects() {
     const [displayedProject, setDisplayedProject] = useState("")
     return (
         <div className="flex justify-start w-full">
-          <div className="text-left text-3xl">
-            <ul className="list-disc ml-28 mb-60">
+          <div className="text-left text-2xl">
+            <ul className="list-disc ml-6">
               <li className="mb-6">Project 1</li>
               <li className="mb-6">Project 2</li>
               <li className="mb-6">Project 3</li>
